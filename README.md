@@ -6,7 +6,11 @@ and are not implemented because they are particularly efficient in any
 sense.
 
 Inspiration for these algorithms came from literateprograms.org,
-Python Algorithms by Magnus Lie Hetland and Wikipedia.
+Python Algorithms by Magnus Lie Hetland, and Wikipedia.
+
+There's some pretty good Python algorithms
+[here](http://interactivepython.org/courselib/static/pythonds/index.html)
+too.
 
 
 Running tests
