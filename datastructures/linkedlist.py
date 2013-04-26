@@ -12,6 +12,8 @@ class LinkedList(object):
     def __init__(self):
         self.head = None
 
+    # This could be implemented better as an instance counter
+    # which is incremented on insert and decremented on remove
     def size(self):
         num = 0
         current = self.head
