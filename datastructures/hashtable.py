@@ -3,6 +3,7 @@ class HashItem(object):
         self.key = key
         self.value = value
 
+
 class HashTable(object):
     def __init__(self, initsize=100):
         self.initsize = initsize
