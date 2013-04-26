@@ -1,10 +1,12 @@
 class ListOutOfRangeError(Exception):
     pass
 
+
 class ListItem(object):
     def __init__(self, value=None, next=None):
         self.value = value
         self.next = next
+
 
 class LinkedList(object):
     def __init__(self):

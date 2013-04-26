@@ -1,10 +1,12 @@
 class EmptyStackError(Exception):
     pass
 
+
 class StackItem(object):
     def __init__(self, value=None, next=None):
         self.value = value
         self.next = next
+
 
 class Stack(object):
     def __init__(self):
